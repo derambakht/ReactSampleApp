@@ -34,6 +34,7 @@ class App extends Component {
 
   render() {
     return (
+      // Check for Git Commits
       <BrowserRouter>
         <div>
           <Menu fixed='top' inverted>
