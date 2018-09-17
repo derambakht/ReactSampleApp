@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.note{
+  float: left;
+  background-color: yellow;
+  padding: 10px;
+  margin: 10px;
+  min-height: 190px;
+  min-width: 235px;
+}
+.note .toolbar{
+  display: none;
+}
+.note:hover .toolbar{
+  display: block;
+}
